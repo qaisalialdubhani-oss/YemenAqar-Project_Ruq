@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ملف بيانات السجل | يمن عقار</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-white sticky-top border-bottom">
+        <nav class="navbar navbar-expand-lg"><div class="container-fluid px-5"><a class="navbar-brand" href="index.html">يمن <span>عقار</span></a>
+            <ul class="navbar-nav me-auto"><li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li><li class="nav-item"><a class="nav-link active" href="properties.html">العودة لسجلات البحث</a></li></ul></div>
+        </nav>
+    </header>
+
+    <main class="container-fluid px-4 px-lg-5 mt-5 mb-5">
+        <div class="row g-5">
+            <div class="col-lg-8">
+                <!-- معرض صور عملاق لبيانات العقار -->
+                <div class="bg-white p-4 rounded-4 shadow-sm border mb-5">
+                    <div class="gallery-main mb-3"><img id="main-image" src="images/image_4.png" alt="الواجهة"></div>
+                    <div class="thumbnails d-flex gap-3 overflow-auto pb-3 mt-4">
+                        <img src="images/image_4.png" class="thumbnail active" alt="الواجهة">
+                        <img src="images/image_8.png" class="thumbnail" alt="الخارج">
+                        <img src="images/image_3.png" class="thumbnail" alt="صالة">
+                        <img src="images/image_5.png" class="thumbnail" alt="جلوس">
+                        <img src="images/image_6.png" class="thumbnail" alt="معيشة">
+                        <img src="images/image_7.png" class="thumbnail" alt="طعام">
+                        <img src="images/image_9.png" class="thumbnail" alt="غرفة">
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-4 shadow-sm border">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h2 class="fw-bold text-primary">فيلا كلاسيكية حديثة البناء - السجل YMN-45892</h2>
+                        <span class="badge bg-success fs-4 px-4 py-2">للبيع</span>
+                    </div>
+                    <h1 class="text-warning fw-bold mb-5 display-4">$450,000</h1>
+                    
+                    <h3 class="fw-bold border-bottom pb-3 mt-5 mb-4">البيانات الفنية والإنشائية:</h3>
+                    <table class="mega-table mb-5">
+                        <tbody>
+                            <tr><th>المساحة الإجمالية</th><td>14 قصبة (620 متر مربع)</td><th>عدد الطوابق</th><td>دورين وبدروم وملحق</td></tr>
+                            <tr><th>حالة التوثيق القانوني</th><td>بصيرة حر معمدة بالرقم (1452)</td><th>سنة البناء</th><td>2024 (حديث)</td></tr>
+                            <tr><th>نوع التشطيب</th><td>سوبر لوكس (أوروبي)</td><th>حالة التأثيث</th><td>مفروشة بالكامل</td></tr>
+                        </tbody>
+                    </table>
+
+                    <h3 class="fw-bold border-bottom pb-3 mt-5 mb-4">الوصف الشامل في قاعدة البيانات:</h3>
+                    <p class="fs-4 lh-lg text-muted">تم إدراج هذه الفيلا في قواعد بياناتنا بعد التأكد من مطابقتها لكافة المعايير الهندسية. مبنية بأجود أنواع المواد (واجهة حجر دوران)، ومصممة بديكورات داخلية حديثة ذكية (Smart Home). تحتوي على صالات ضيافة فخمة ومجهزة كما هو موضح في سجل الصور الرقمي أعلاه. العقار جاهز للإفراغ والنقل الفوري.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bg-white p-5 rounded-4 shadow-sm border position-sticky" style="top: 120px;">
+                    <h3 class="fw-bold mb-4 text-center border-bottom pb-4">إدارة العمليات والمبيعات</h3>
+                    <button class="btn btn-success btn-lg w-100 mb-3 fw-bold py-3 fs-4"><i class="fas fa-phone-alt me-2"></i> اتصل بالوكيل المعتمد</button>
+                    <button class="btn btn-outline-success btn-lg w-100 mb-5 fw-bold py-3 fs-4"><i class="fab fa-whatsapp me-2"></i> المحادثة الفورية</button>
+                    
+                    <h4 class="fw-bold mt-4 mb-4 text-primary">تسجيل أمر شراء إلكتروني:</h4>
+                    <form class="needs-validation" novalidate>
+                        <input type="text" class="form-control form-control-lg mb-4" placeholder="الاسم الرباعي للمشتري" required>
+                        <input type="tel" class="form-control form-control-lg mb-4" placeholder="رقم الهوية / الجواز" required>
+                        <input type="email" class="form-control form-control-lg mb-4" placeholder="البريد الإلكتروني" required>
+                        <textarea class="form-control form-control-lg mb-4" rows="4" placeholder="أرغب بحجز موعد لتوقيع العقود الخاصة بالعقار..." required></textarea>
+                        <button class="btn btn-primary btn-lg w-100 fw-bold py-3 fs-4" type="submit">إرسال الطلب للسيرفر</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
